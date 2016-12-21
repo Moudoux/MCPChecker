@@ -1,5 +1,5 @@
 # MCPChecker
-MCPChecker is a simple tool to check if MCP mappings is out for a specific Minecraft version. Note: This tool is made to run on Unix based systems.
+MCPChecker is a simple tool to check if MCP mappings is out for a specific Minecraft version and send you email alerts if it finds mappings for a specified Mineraft version. Note: This tool is made to run on Unix based systems.
 
 ### Installing
 
