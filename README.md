@@ -9,8 +9,8 @@ This tool requires PEAR mail to work, so let's install PHP7, Pear Mail and Curl:
 
 ```sh
 $ sudo apt-get install php7.0
-sudo apt-get install curl
-sudo apt-get install php7.0-curl
+$ sudo apt-get install curl
+$ sudo apt-get install php7.0-curl
 $ sudo apt-get install php-pear
 $ sudo pear install mail
 $ sudo pear install Net_SMTP
