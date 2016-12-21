@@ -57,7 +57,7 @@
 			$output = sendmail($EMAIL_TO,'MCP Mappings for MC '.$MCP_VERSION,'MCP Mappings for MC '.$MCP_VERSION.' is now available, download at http'.$matches[0],'MCPBotScanner');
         } else {
 			$content = file_get_contents('https://bitbucket.org/ProfMobius/mcpbot/commits/all');
-			if (preg_match('#(.*?)'.$MCP_VERSION.'(.*?)"',$content,$matches)) {
+			if (preg_match('#(.*?)'.$MCP_VERSION.'(.*?)#',$content,$matches)) {
 				$output = sendmail($EMAIL_TO,'MCP Mappings for MC '.$MCP_VERSION,'MCP Mappings for MC '.$MCP_VERSION.' is now available, download at https://bitbucket.org/ProfMobius/mcpbot/commits/all','MCPBotScanner');
 			}
 		}
