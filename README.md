@@ -26,7 +26,7 @@ $ cd MCPChecker
 $ wget https://raw.githubusercontent.com/Moudoux/MCPChecker/master/MCPChecker.php
 ```
 
-Now add the MCPChecker.php to your crontab using `$ sudo crontab -e`
+Now add the MCPChecker.php to your crontab using `$ sudo crontab -e`, i recommend running the script every 10 minutes.
 
 ### Setup
 
